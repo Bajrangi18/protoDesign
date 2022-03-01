@@ -14,12 +14,86 @@ width: 100vw;
 #battery {
    background-color: black;
    height: 4vh;
-   width: 12vw;
+   width: 15vw;
    color: white;
-   border-radius: 10%;
+   border-radius: 11%;
    padding: 0;
+   text-align:center;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: bold;
 }
 
 #date {
   font-weight: bold;
+}
+
+#center_row {
+  position: relative;
+  top: 20vh;
+}
+
+#speed {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17vh;
+  text-align: center;
+  padding: 0;
+}
+
+#kmph {
+  position: absolute;
+  top: 16vh
+}
+
+#end_row {
+  position: relative;
+  top: 20vh;
+  right: -9vw;
+
+}
+#end_row2 {
+  position: relative;
+  top: 22vh;
+  right: -9vw;
+}
+
+#heart_logo {
+  height: 10vh;
+  width: 20vw;
+}
+#sp02_logo {
+  height: 10vh;
+  width: 22vw;
+}
+
+#bpm_data {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 10vh;
+}
+
+#bpm_si {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  line-height: 10vh;
+}
+#sp02_data {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+    line-height: 10vh;
+}
+#sp02_si {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  line-height: 10vh;
 }
