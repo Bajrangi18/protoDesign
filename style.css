@@ -1,7 +1,7 @@
 body {
 background-color: #025769;
-height: 100vh;
-width: 100vw;
+height: auto;
+width: auto;
 }
 #time {
   font-family: sans-serif;
@@ -28,9 +28,13 @@ width: 100vw;
   font-weight: bold;
 }
 
+#top_row {
+  position: absolute;
+  right: -5vw;
+}
 #center_row {
   position: relative;
-  top: 20vh;
+  top: 35vh;
 }
 
 #btn_id {
@@ -52,16 +56,17 @@ width: 100vw;
   top: 16vh
 }
 
-#end_row {
-  position: relative;
-  top: 20vh;
+#bpmRow {
+  position: absolute;
+  top: 62vh;
   right: -9vw;
 
 }
-#end_row2 {
-  position: relative;
-  top: 22vh;
+#spRow {
+  position: absolute;
+  top: 75vh;
   right: -9vw;
+
 }
 
 #heart_logo {
@@ -93,7 +98,7 @@ width: 100vw;
   font-style: normal;
   font-weight: bold;
   font-size: 5vh;
-    line-height: 10vh;
+  line-height: 10vh;
 }
 #sp02_si {
   font-family: sans-serif;
