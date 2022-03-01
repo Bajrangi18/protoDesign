@@ -33,6 +33,11 @@ width: 100vw;
   top: 20vh;
 }
 
+#btn_id {
+  position: absolute;
+  top: 90vh;
+}
+
 #speed {
   font-family: sans-serif;
   font-style: normal;
