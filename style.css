@@ -1,13 +1,21 @@
 body {
 background-color: #025769;
+height: 100vh;
+width: 100vw;
 }
-#main {
-  margin: 5vh;
-  height: 80vh;
-  width: 80vw;
-  padding-top: 10vh;
-  padding-right: 10vw;
-  padding-bottom: 10vh;
-  padding-left: 10vw;
-  box-shadow: 0vw 0vh 1vh 1vh #84E7FC;
+#time {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6vh;
+  line-height: 37px;
+}
+
+#battery {
+ height: 5.5vh;
+ width: 10vw;
+}
+
+#date {
+  font-weight: bold;
 }
