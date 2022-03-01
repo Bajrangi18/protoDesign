@@ -1,3 +1,6 @@
+body {
+background-color: #025769;
+}
 #main {
   margin: 5vh;
   height: 80vh;
@@ -6,5 +9,5 @@
   padding-right: 10vw;
   padding-bottom: 10vh;
   padding-left: 10vw;
-  box-shadow: 0vw 0vh 1vh 1vh red;
+  box-shadow: 0vw 0vh 1vh 1vh #84E7FC;
 }
