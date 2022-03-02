@@ -1,6 +1,9 @@
 var myCharacteristic;
     const btn = document.getElementById("btn");
-    const text = document.getElementById("batt_lev");
+    const text1 = document.getElementById("batt_lev");
+    const text2 = document.getElementById("speed");
+    const text3 = document.getElementById("bpm_data");
+    const text4 = document.getElementById("sp02_data");
 
   btn.addEventListener("click", async event =>{
         startButton();
@@ -12,13 +15,26 @@ var myCharacteristic;
   for (let i = 0; i < value.byteLength; i++) {
     a.push(value.getUint8(i));
   }
-  log(a.join(' '));
+//   log(a.join(' '));
+     log1(a[0]);
+     log2(a[1]);
+     log3(a[2]);
+     log4(a[3]);
  }
 
 
 
-function log(data) {
-  text.innerHTML = data + "%"; //text.innerHTML + "<br>" 
+function log1(data) {
+  text1.innerHTML = data + "%"; 
+}
+function log2(data) {
+  text2.innerHTML = data; 
+}
+function log3(data) {
+  text3.innerHTML = data; 
+}
+function log4(data) {
+  text4.innerHTML = data; 
 }
 
 
