@@ -1,6 +1,6 @@
 var myCharacteristic;
     const btn = document.getElementById("btn");
-    const text = document.getElementById("batt");
+    const text = document.getElementById("batt_level");
 
   btn.addEventListener("click", async event =>{
         startButton();
