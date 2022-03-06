@@ -4,6 +4,7 @@ var myCharacteristic;
     const text2 = document.getElementById("speed");
     const text3 = document.getElementById("bpm_data");
     const text4 = document.getElementById("sp02_data");
+    const bot_B = document.getElementById("bot_Border");
 
   btn.addEventListener("click", async event =>{
         startButton();
@@ -20,6 +21,9 @@ var myCharacteristic;
      log2(a[1]);
      log3(a[2]);
      log4(a[3]);
+     if(a[4])==1){
+        bot_B.style.opacity = "1";
+     }
  }
 
 
