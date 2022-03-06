@@ -19,16 +19,15 @@ var myCharacteristic;
      log1(a[0]);
      log2(a[1]);
      log3(a[2]);
-     if(Boolean(a[4]){
-        bot_B.style.opacity = "1";
-        }else{
-         bot_B.style.opacity = "0";
-     }
+     log4(a[3]);
+     shadowShow(a[4]);
      
  }
 
 
-
+function shadowShow(i) {
+    console.log(Boolean(i));
+}
 function log1(data) {
   text1.innerHTML = data + "%"; 
 }
