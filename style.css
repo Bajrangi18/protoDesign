@@ -1,5 +1,4 @@
 body {
-background-color: #025769;
 height: auto;
 width: auto;
 }
@@ -107,4 +106,34 @@ width: auto;
   font-weight: bold;
   font-size: 3vh;
   line-height: 10vh;
+}
+#left_Border {
+  height: 60vh;
+  padding: 0;
+  width: 0.01vw;
+  box-shadow: 0vw 0vh 22vw 10vw black;
+  position: absolute;
+  left: 0vw;
+  top: 25vh;
+  opacity: 0;
+}
+#right_Border {
+  height: 60vh;
+  padding: 0;
+  width: 0.01vw;
+  box-shadow: 1vw 0vh 22vw 10vw black;
+  position: absolute;
+  right: -10vw;
+  top: 25vh;
+  opacity: 0;
+}
+#bot_Border {
+  height: 0.01vh;
+  padding: 0;
+  width: 70vw;
+  box-shadow: 0vw -0.01vh 30vw 10vw black;
+  position: absolute;
+  left: 20vw;
+  bottom: -9vh;
+  opacity: 0;
 }
