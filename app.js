@@ -19,7 +19,13 @@ var myCharacteristic;
      log1(a[0]);
      log2(a[1]);
      log3(a[2]);
-     log4(a[3]);
+//      log4(a[3]);
+      if(a[4]){
+          log4(a[4]);
+      }else{
+          log4(a[4]);
+      }
+      
          
 
  }
