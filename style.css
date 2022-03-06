@@ -8,12 +8,19 @@ width: auto;
   font-weight: bold;
   font-size: 5vh;
   line-height: 37px;
+  position: relative;
+  
 }
-
+#batt_lev{
+  font-size: 3.5vh;
+  position: relative;
+  top: 0.5vh;
+  right: -1vw;
+}
 #battery {
    background-color: black;
-   height: 3vh;
-   width: 14vw;
+   height: 6vh;
+   width: 25vw;
    color: white;
    border-radius: 11%;
    padding: 0;
@@ -21,10 +28,15 @@ width: auto;
    font-family: sans-serif;
    font-style: normal;
    font-weight: bold;
+   position: relative;
+   right: 3vw;
+   top: 0.4vh
 }
-
-#date {
-  font-weight: bold;
+#logo_krys {
+  height: 8vh;
+  width: 35vw;
+  position: absolute;
+  left: -16vw;
 }
 
 #top_row {
