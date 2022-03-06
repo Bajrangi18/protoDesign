@@ -24,6 +24,9 @@ var myCharacteristic;
      if(a[4])==1){
         bot_B.style.opacity = "1";
      }
+      else{
+      bot_B.style.opacity = "0";
+      }
  }
 
 
