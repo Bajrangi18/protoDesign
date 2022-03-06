@@ -19,12 +19,7 @@ var myCharacteristic;
      log1(a[0]);
      log2(a[1]);
      log3(a[2]);
-//      log4(a[3]);
-      if(a[4]){
-          bot_B.style.opacity = "1.0";
-      }else{
-          bot_B.style.opacity = "0.0";
-      }
+     log4(typeof a[4]);
       
          
 
