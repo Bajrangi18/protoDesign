@@ -26,7 +26,12 @@ var myCharacteristic;
 
 
 function shadowShow(i) {
-    console.log(Boolean(i));
+    var j = Boolean(i);
+    if(j){
+        bot_B.style.opacity = '1';
+    }else{
+        bot_B.style.opacity = '0';
+    }
 }
 function log1(data) {
   text1.innerHTML = data + "%"; 
