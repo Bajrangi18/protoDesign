@@ -4,6 +4,8 @@ var myCharacteristic;
     const text2 = document.getElementById("speed");
     const text3 = document.getElementById("bpm_data");
     const text4 = document.getElementById("sp02_data");
+    const bot_L = document.getElementById("left_Border");
+    const bot_R = document.getElementById("right_Border");
     const bot_B = document.getElementById("bot_Border");
 
   btn.addEventListener("click", async event =>{
@@ -20,12 +22,30 @@ var myCharacteristic;
      log2(a[1]);
      log3(a[2]);
      log4(a[3]);
-     shadowShow(a[4]);
+     shadowShow1(a[4]);
+     shadowShow2(a[5]);
+     shadowShow3(a[6]);
      
  }
 
 
-function shadowShow(i) {
+function shadowShow1(i) {
+    var j = Boolean(i);
+    if(j){
+        bot_L.style.opacity = '1';
+    }else{
+        bot_L.style.opacity = '0';
+    }
+}
+function shadowShow2(i) {
+    var j = Boolean(i);
+    if(j){
+        bot_R.style.opacity = '1';
+    }else{
+        bot_R.style.opacity = '0';
+    }
+}
+function shadowShow3(i) {
     var j = Boolean(i);
     if(j){
         bot_B.style.opacity = '1';
