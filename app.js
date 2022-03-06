@@ -20,7 +20,7 @@ var myCharacteristic;
      log2(a[1]);
      log3(a[2]);
      log4(a[3]);
-     bot_B.style.opacity = a[4].toString()
+         
 
  }
 
