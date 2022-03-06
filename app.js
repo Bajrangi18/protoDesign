@@ -16,7 +16,6 @@ var myCharacteristic;
   for (let i = 0; i < value.byteLength; i++) {
     a.push(value.getUint8(i));
   }
-//   log(a.join(' '));
      log1(a[0]);
      log2(a[1]);
      log3(a[2]);
