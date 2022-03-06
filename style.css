@@ -152,3 +152,10 @@ width: auto;
   opacity: 0;
   transition: opacity 0.4s;
 }
+#maps {
+  position:absolute;
+  top: 13vh;
+  left: 10vw;
+  height:28vh;
+  width: 90vw;
+}
