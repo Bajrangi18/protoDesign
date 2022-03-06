@@ -173,7 +173,10 @@ width: auto;
 }
 #hyper {
   position: relative;
-  height: 20vh;
-  width: 40vw;
+  height: 18vh;
+  width: 47vw;
   top: 2vh;
+}
+#temp {
+  height: 30vh;
 }
